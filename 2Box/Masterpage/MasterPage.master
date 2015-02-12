@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">    
+    <meta name="description" content="G.M. Tour & Travel 2Box" />
+    <meta name="keywords" content="G.M.Tour,Blog,2Box,Airline,Travel" />
+    <meta name="author" content="G.M. Tour & Travel" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />    
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>G.M. Tour & Travel - Blog</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />    
+    <link href="../css/jquery-ui.css" rel="stylesheet" />
+    <link href="../css/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="../css/blog.css" rel="stylesheet" />
+    <script src="../script/jquery-1.11.1.min.js"></script>
+    <script src="../script/jquery-ui.js"></script>    
+    <script src="../script/blog.js"></script>    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="master-header">
+        <div style="width:1000px;margin:0 auto;">
+            <div class="blog-logo"><asp:Image ID="imageLogo" runat="server"></asp:Image></div>            
+        </div>
+        <div class="display-blog-link">
+            <asp:LinkButton ID="lnkHome" runat="server" CssClass="home-button button-font" Text="Home"></asp:LinkButton>
+            <asp:LinkButton ID="lnkManagement" runat="server" CssClass="management-button button-font" Text="Management"></asp:LinkButton>
+            <asp:LinkButton ID="lnkLogin" runat="server" CssClass="login-button button-font" Text="Login"></asp:LinkButton>
+            <asp:LinkButton ID="lnkLogout" runat="server" CssClass="logout-button button-font" Text="Logout" OnClientClick="window.location='http://www.gmtour.com/2Box/Login.aspx?mode=logout';return false;"></asp:LinkButton>
+        </div>
+        <asp:Panel ID="panelUsername" runat="server" class="display-blog-username">
+            <span class="photo"></span>
+            <asp:Label ID="lblUsername" runat="server" ></asp:Label>
+        </asp:Panel>
+        <asp:Panel ID="panelSearch" runat="server" CssClass="panel-search">
+            <asp:TextBox ID="txtSearchContent" runat="server" CssClass="search-content" placeholder="Search content" ></asp:TextBox>
+        </asp:Panel>
+    </div>
+    <div class="master-body-wrapper">        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">                    
+        </asp:ContentPlaceHolder>
+    </div>    
+    </form>
+    <div class="dialog-confirm" title="">
+        <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span><span class="dialog-confirm-text"></span>
+    </div>
+    <div class="dialog-message" title="Application Message">
+        <span class="ui-icon ui-icon-info" style="float:left; margin:0 7px 20px 0;"></span><span class="dialog-message-text"></span>
+    </div>
+</body>
+</html>

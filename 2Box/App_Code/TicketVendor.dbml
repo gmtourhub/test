@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ticketvendor" Class="TicketVendorDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=61.91.1.115,1444;Initial Catalog=ticketvendor;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ticketvendorConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.mt_user" Member="mt_users">
+    <Type Name="mt_user">
+      <Column Name="uid" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nav_uid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="uname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pwd" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="utype" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="agent_code" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="pos" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="dl_user" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="abacus_ipcc" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Column Name="abacus_printer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="amadeus_ipcc" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Column Name="amadeus_printer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="galileo_ipcc" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Column Name="galileo_printer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="send2email" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="gmcard_no" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="create_by" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="update_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="update_by" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="user_status" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

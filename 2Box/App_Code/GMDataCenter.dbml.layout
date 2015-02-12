@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 8.5" name="GMDataCenter">
+  <DataContextMoniker Name="/GMDataCenterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0235ee72-5635-4a3f-9088-e072b032ceb3" absoluteBounds="2.625, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/GMDataCenterDataContext/Application_Blog_Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27593a9e-8152-4eb2-b95c-e543dc4934c6" absoluteBounds="2.64, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20135558-c514-4bb6-898c-7f06963de6a7" absoluteBounds="6.875, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/GMDataCenterDataContext/Application_Blog_SelectCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="57199b3f-77d0-418e-aa42-fd54492249b3" absoluteBounds="6.89, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1cc253af-1e57-428f-85ee-ad0de4a178a4" absoluteBounds="0.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/GMDataCenterDataContext/Application_Blog_Grant" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd51b967-5439-4b24-8892-42cfdecad855" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d651968d-efda-41a1-8e12-3d0d04616395" absoluteBounds="9, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/GMDataCenterDataContext/Application_Blog_Comment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db4ce8a6-d4ea-4d42-9637-58f9f0ce215f" absoluteBounds="9.015, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9104dce-d777-4cb8-9b93-73d0c2dcff76" isExpanded="false" absoluteBounds="4.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/GMDataCenterDataContext/Application_Blog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2bb0e4d4-ab19-46ff-b9fb-c889fb23eec6" absoluteBounds="4.765, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35840561-48e2-4e2b-ae76-a24ceb71918d" absoluteBounds="0.5, 1.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/GMDataCenterDataContext/Application_Blog_ViewLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="738e67ab-7df5-44ce-861b-f73a662519bf" absoluteBounds="0.51499999999999968, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
