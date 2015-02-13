@@ -6,6 +6,7 @@ using System.Web;
 
 namespace Blog
 {
+    //test
     public class Database
     {
         public static bool UserAuthenticate(string uname,string pwd,bool checkPassword)
